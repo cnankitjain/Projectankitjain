@@ -137,3 +137,47 @@ a {
   background-color: rgb(68, 67, 67);
   color: white;
 }
+
+/*Services Start*/
+.services {
+  width: 100%;
+  height: 1150px;
+  border: 2px solid black;
+  position: relative;
+}
+.service-head {
+  text-align: center;
+}
+.servicecard {
+  width: 650px;
+  height: 950px;
+  border: 2px solid black;
+}
+#servicecardbasic {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9a6nq5sdgDxEsPYB3Rf1XpejKgBaSzvtlFQ&s");
+  background-size: 600px 400px;
+  background-position: 25px 100px;
+  background-repeat: no-repeat;
+  background-color: antiquewhite;
+  position: absolute;
+  left: 10px;
+}
+#servicecardadvance {
+  background-image: url("https://www.knowmad.com/hubfs/webdesign-photo.jpg");
+  background-size: 600px 400px;
+  background-position: 25px 100px;
+  background-repeat: no-repeat;
+  background-color: antiquewhite;
+  position: absolute;
+  left: 675px;
+}
+#basiccontent {
+  position: absolute;
+  top: 500px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+li {
+  margin: 1%;
+  padding: 1%;
+}
