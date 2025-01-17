@@ -63,3 +63,77 @@ a {
   font-style: italic;
   color: rgb(12, 12, 12);
 }
+
+/*About start*/
+#About {
+  width: 100%;
+  height: 700px;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaFbCSDJsjOzlYPQ3yQn5a2C-eXMtYVZ6tA&s");
+
+  background-repeat: no-repeat;
+  background-size: 30% 300px;
+  background-position: 14.5% 90px;
+}
+#Aboutcontent {
+  width: 30%;
+  height: 300px;
+  border: 2px solid black;
+  margin-right: 20%;
+  position: relative;
+  bottom: 300px;
+  float: right;
+}
+#About:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#Aboutimage {
+  margin-top: 50px;
+  width: 30%;
+  height: 300px;
+  margin-left: 10%;
+  border: 2px solid black;
+}
+#font {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+.cards {
+  width: 100%;
+  height: 220px;
+
+  position: relative;
+}
+#card1 {
+  position: absolute;
+  left: 20px;
+}
+#card2 {
+  position: absolute;
+  left: 35%;
+}
+#card3 {
+  position: absolute;
+  left: 68%;
+}
+.cardstyle {
+  width: 28%;
+  height: 100px;
+  margin: 1%;
+  padding: 1%;
+  color: white;
+  text-align: center;
+  background-color: #be4ea2;
+  border: 2px solid rgb(119, 33, 119);
+  border-radius: 5px;
+}
+.Subheader {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(68, 67, 67);
+  color: white;
+}
