@@ -181,3 +181,50 @@ li {
   margin: 1%;
   padding: 1%;
 }
+/*Project Start*/
+#project {
+  width: 100%;
+  height: 1350px;
+  background-color: aquamarine;
+  margin-top: 10px;
+  border: 2px solid black;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeV4hu8_0d1mM57FSlKiQaWtGHB7XY75Sf8w&s"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ04WgtYIlaubjZZBnTCJa_1wFbHDso3u2oUQ&s"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqRKV9rShSsa8nmiSWTIHJlIWI1CALQQtQOQ&s"),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTN5LIfEKNlx8WdUdQ-zrIV5ukuL0G7FvQ5Q&s");
+  background-size: 600px 500px, 600px 500px, 600px 500px, 600px 500px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 5% 100px, 90% 100px, 5% 700px, 90% 700px;
+  position: relative;
+}
+.projectbutton {
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 2px;
+  border-radius: 10px;
+}
+#button01 {
+  position: absolute;
+  top: 1250px;
+  left: 20%;
+}
+
+#button02 {
+  position: absolute;
+  top: 1250px;
+  left: 65%;
+}
+#but01 {
+  position: absolute;
+  top: 625px;
+  left: 20%;
+}
+#but02 {
+  position: absolute;
+  top: 625px;
+  left: 65%;
+}
